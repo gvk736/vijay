@@ -10,6 +10,9 @@ object AgesXmlParserApp extends App {
   sc.setLogLevel("ERROR")
 
 
+
+  
+
   val xmlDF = spark.read.format("xml").option("rowTag", "people").load("C:\\Users\\Vijay Krishna\\IdeaProjects\\vijaypractice\\src\\main\\resources\\ages.xml")
   xmlDF.printSchema()
 

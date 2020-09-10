@@ -77,7 +77,7 @@ println(e)
     val c = a.filter(x=>x._2 > 1)
     println(c)
 
-    
+
 
 
  //to find count and unique
